@@ -1,0 +1,86 @@
+body {
+	background-color: black;
+}
+/*
+Luxor Gold: #AB8D3F
+*/
+
+h1{
+	color: #AB8D3F;
+}
+.card, .modal-header, .modal-body {
+	color: #AB8D3F;
+	background: rgba(0, 0, 0, 0);
+	border: none;
+}
+.card:hover{
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+.overlay { 
+  position:absolute;
+  z-index:12;
+  top: 35%;
+  left: 0;
+  width:100%;
+  text-align:center;
+  padding: 100px;
+  background: rgba(0, 0, 0, 0.75);
+}
+p {
+	color: #D0D3D4;
+}
+.main {
+	padding-top: 10%;
+	padding-bottom: 20px;
+}
+
+ul.dropdown-menu {
+	background: #AB8D3F;
+}
+footer{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.locations {
+	padding: 5px;
+	color: #fff;
+}
+.bi {
+	color: #AB8D3F;
+}
+/*locationv2*/
+.asideLabel{
+	color: #fff;
+	font-weight: bold;
+}
+.aside {
+	color: #AB8D3F;
+}
+.menus {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: grey;
+	width: 200px;
+	height: 200px;
+	margin:  10px;
+}
+.menuRow{
+	padding-top: 10px;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width: 600px) {
+ .min-vh-100{
+		min-height: 35vh!important;
+	}
+	.overlay {
+		position: static;
+		padding: 5px;
+		top: 5px;
+
+	}
+}

@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="./style/style.css">
 
-    <title>Taam Eden Bakery</title>
+    <title>Form</title>
   </head>
   <body>
     <div class="container">
       <p>MODAL!!</p>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
+        Submit resume here
       </button>
 
       <!-- Modal -->
@@ -29,38 +29,48 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+              <div class="row">
+                <div>
+                  <p style="color:black">If you are interested in the joining the team, submit your resume or message us to inquire about opportunities.</p>
+                </div>
+              </div>
               <form action="">
                 <div class="row">
                   <div class="col-6">
                     <label for="firstName" class="form-label">First Name</label>
-                    <input class="form-control" type="text" id="firstName" aria-label="default input example">
+                    <input class="form-control form-control-sm" type="text" id="firstName" aria-label="default input example">
                   </div>
                   <div class="col-6">
                     <label for="lastName" class="form-label">Last Name</label>
-                    <input class="form-control" type="text" id="lastName" aria-label="default input example">
+                    <input class="form-control form-control-sm" type="text" id="lastName" aria-label="default input example">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-6">
                     <label for="careerFormEmail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="careerFormEmail" placeholder="name@example.com">
+                    <input type="email" class="form-control form-control-sm" id="careerFormEmail" placeholder="name@example.com">
                   </div>
                   <div class="col-6">
                     <label for="formFile" class="form-label">Resume</label>
-                    <input class="form-control" type="file" id="formFile">
+                    <input class="form-control form-control-sm" type="file" id="formFile">
                   </div>
                 </div>
                 <div class="row">
                   <div class="mb-3">
-                    <label for="careerFormMessage" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="careerFormMessage" rows="3"></textarea>
+                    <label for="careerFormMessage" class="form-label">Message</label>
+                    <textarea class="form-control form-control-sm" id="careerFormMessage" rows="3"></textarea>
                   </div>
                 </div>
-              </form>            
+                <div class="row">
+                  <div class="col-2">
+                    <input type="submit" class="btn btn-secondary" value="Submit"></input>
+                  </div>
+                </div>
+              </form>       
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+
             </div>
           </div>
         </div>

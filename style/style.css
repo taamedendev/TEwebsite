@@ -70,7 +70,11 @@ footer{
 .menuRow{
 	padding-top: 10px;
 }
-
+ /*corporate*/
+ .img-thumbnail{
+ 	width: 200px;
+ 	height: 200px;
+ }
 
 /*Media Queries*/
 @media only screen and (max-width: 600px) {

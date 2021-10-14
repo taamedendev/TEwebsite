@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="./style/style.css">
 
-    <title>Locations</title>
+    <title>Borough Park</title>
   </head>
   <body>
     <main>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="version2.html">
+          <a class="navbar-brand" href="index.html">
             <img src="./style/images/icon.png" alt="" width="30" height="30">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,13 +40,6 @@
                 <a class="nav-link active" href="https://www.order.store/store/taam-eden-bakery/olafiVImRTidPrd3171pig" target="_blank">Order Now</a>
               </li>
             </ul>
-<!--        <span class="navbar-text">
-              <a href="tel:718-484-8565"><i class="bi bi-telephone"></i></a>
-              &nbsp&nbsp&nbsp&nbsp
-              <a href="https://www.instagram.com/taamedenbakery" target="_blank"><i class="bi bi-instagram"></i></a>
-              &nbsp&nbsp&nbsp&nbsp
-              <a href="mailto:orders@tamedenbakery.com"><i class="bi bi-envelope"></i></a>
-            </span> -->
           </div>
         </div>
       </nav>
@@ -77,10 +70,9 @@
       </div>
         <div class="row menuRow mx-auto">
           <div class="col-sm-4 d-flex justify-content-center">
-            <div class="card text-center menus">
-              <div class="card-body">
+            <div class="card text-center menus align-middle">
+              <div class="card-body align-middle">
                 <h5 class="card-title">Pareve</h5>
-                <p class="card-text">A wonderful assortment of delicious kosher pastries.</p>
                 <a href="./docs/test.pdf" target="_blank" class="btn btn-dark">Menu</a>
               </div>
             </div>
@@ -89,7 +81,6 @@
                    <div class="card text-center menus">
               <div class="card-body">
                 <h5 class="card-title">Dairy</h5>
-                <p class="card-text">A wonderful assortment of delicious kosher pastries.</p>
                 <a href="./docs/test.pdf" target="_blank" class="btn btn-dark">Menu</a>
               </div>
             </div>
@@ -98,7 +89,6 @@
             <div class="card text-center menus">
               <div class="card-body">
                 <h5 class="card-title">Bread</h5>
-                <p class="card-text">Challah & Mezonos</p>
                 <a href="./docs/test.pdf" target="_blank" class="btn btn-dark">Menu</a>
               </div>
             </div>
@@ -115,9 +105,41 @@
           <a href="https://www.instagram.com/taamedenbakery" target="_blank"><i class="bi bi-instagram"></i></a>
           &nbsp&nbsp&nbsp&nbsp
           <a href="mailto:orders@tamedenbakery.com"><i class="bi bi-envelope"></i></a>
+          &nbsp&nbsp&nbsp&nbsp
+          <a href="#" class="career">Careers</a>
         </span>
       </div>
     </footer>
+    <!-- Career Form Modal -->
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Careers</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Form goes here -->
+            <div class="mb-3">
+              <label for="careerFormMessage" class="form-label">Message</label>
+              <textarea class="form-control" id="careerFormMessage" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="careerFormEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="careerFormEmail" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="careerFormMessage" class="form-label">Message</label>
+              <textarea class="form-control" id="careerFormMessage" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

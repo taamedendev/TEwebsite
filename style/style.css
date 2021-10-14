@@ -48,7 +48,7 @@ footer{
 	padding: 5px;
 	color: #fff;
 }
-.bi {
+.bi, .career {
 	color: #AB8D3F;
 }
 /*locationv2*/
@@ -63,8 +63,8 @@ footer{
 	border-style: dotted;
 	border-width: 2px;
 	border-color: grey;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	margin:  10px;
 }
 .menuRow{
